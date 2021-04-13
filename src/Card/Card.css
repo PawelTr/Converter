@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    
+}
+.Col1 {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    margin: 0 auto;
+}
+
+.Card {
+    width: max-content;
+    font-size: 24px;
+    margin-left: 30px;
+    text-align: left;
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+}

@@ -1,0 +1,73 @@
+.Calc {
+    margin-top: 70px;
+    width: 80%;
+    padding: 5px;
+    font-size: 40px;
+    text-align: center; 
+}
+.Calc input {
+    margin-right: 10px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    width: 120px;
+}
+
+.Calc input::placeholder {
+    font-size: 12px;
+    font-family: 'Comfortaa', cursive;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+  }
+
+input[type="number"]:hover,
+input[type="number"]:focus {
+    -moz-appearance: number-input;
+  }
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.Form {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    font-size: 15px;
+}
+
+.Sell {
+    
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.Val {
+    text-align: left;
+    width: max-content;
+}
+
+.Val__inner {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000;
+}
+
+.Val__subtilte {
+    font-size: 18px;
+    margin-top: 5px;
+}

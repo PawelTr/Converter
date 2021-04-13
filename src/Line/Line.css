@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+.Col0 {
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    animation: line-scroll 25s infinite linear;
+}
+
+.Line {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    width: 70%;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+
+.Card__line {
+    white-space: nowrap;
+    width: 100%;
+    font-size: 24px;
+    margin-left: 30px;
+    text-align: left;
+    padding: 0;
+}
+
+@keyframes line-scroll {
+    0% {
+        transform: translateX(50%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.red {
+    color: rgb(110, 18, 18);
+}
+
+.green {
+    color: #246C27;
+}
