@@ -8,7 +8,7 @@ let Calc = (props) => {
             <form className='Form'> 
             <div className='Val'>
                 <div className='Val__inner'>
-                    <input type='number' placeholder='Введите сумму' min='0' onChange={props.onChange1} defaultValue={props.cost1}></input>
+                    <input type='number' placeholder='Введите сумму' min='0' onChange={props.onChange1} value={props.cost1}></input>
                     {props.val1}
                     </div> 
                     <p className='Val__subtilte'>У Вас есть</p>
@@ -22,7 +22,7 @@ let Calc = (props) => {
                 <div className='Val'>
                     <div>
                         <div className='Val__inner'>
-                            <input type='number' placeholder='Введите сумму' min='0' defaultValue={props.cost2} onChange={props.onChange2}></input> 
+                            <input type='number' placeholder='Введите сумму' min='0' value={props.cost2} onChange={props.onChange2}></input> 
                             {props.val2}
                         </div>
                         <p className='Val__subtilte'>Вы получите</p>

@@ -7,7 +7,10 @@
     align-items: center;
     display: flex;
     margin: 0 auto;
-    animation: line-scroll 25s infinite linear;
+    animation-name: line-scroll ;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 .Line {
@@ -47,4 +50,29 @@
 
 .green {
     color: #246C27;
+}
+
+@media (max-width:800px) {
+    @keyframes line-scroll {
+        0% {
+            transform: translateX(20%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+}
+
+@media (max-width:450px) {
+    .Line {
+        width: 100%;
+    }
+    @keyframes line-scroll {
+        0% {
+            transform: translateX(10%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
 }

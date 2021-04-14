@@ -71,3 +71,18 @@ input[type="number"]::-webkit-inner-spin-button {
     font-size: 18px;
     margin-top: 5px;
 }
+
+@media (max-width:450px) {
+    .Form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Calc {
+        margin-top: 30px;
+    }
+
+    .Val {
+        margin: 20px 0;
+    }
+}
